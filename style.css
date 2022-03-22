@@ -30,6 +30,17 @@ img {
     align-items: center;
     align-content: center;
 }
+.button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button a {
+    padding: 10px 30px;
+    background-color: #FF5959;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 /*****Hero Section*****/
 section.hero-area {
     padding: 40px 0;
@@ -56,20 +67,49 @@ section.hero-area {
     color: #333333;
     margin-left: 15px;
 }
-.button {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.button a {
-    padding: 10px 30px;
-    background-color: #FF5959;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
 .profile-img {
     text-align: center;
 }
 .profile-img img {
     width: 400px;
+}
+/*********Mission Section*********/
+section.my-mission {
+    padding: 30px 0;
+}
+.my-mission h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #13103A;
+    margin-bottom: 30px;
+}
+.mission-item {
+    border-radius: 26px;
+    margin-right: 24px;
+    padding: 25px 12px 20px 30px;
+}
+.mission-item.mission {
+    background: rgba(79, 157, 166, 0.1);
+}
+.mission-item.vission {
+    background: rgba(255, 89, 89, 0.1);
+}
+.mission-item.goal {
+    background: #FFF4D6;
+}
+.mission-item img {
+    max-width: 140px;
+}
+.mission-item h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
 }
