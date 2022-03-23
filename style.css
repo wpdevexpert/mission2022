@@ -9,6 +9,12 @@ body {
 }
 p {
     margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3E3E3E;
 }
 img {
     max-width: 100%;
@@ -39,8 +45,15 @@ img {
     background-color: #FF5959;
     color: #fff;
     text-decoration: none;
+    border: 1px solid #FF5959;
     border-radius: 5px;
 }
+.button a:hover {
+    background-color: transparent;
+    color: #ff5959;
+}
+.p-left {padding-left: 72px;}
+.p-right {padding-right: 72px;}
 /*****Hero Section*****/
 section.hero-area {
     padding: 40px 0;
@@ -75,7 +88,7 @@ section.hero-area {
 }
 /*********Mission Section*********/
 section.my-mission {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .my-mission h2 {
     font-family: 'Poppins';
@@ -112,4 +125,50 @@ section.my-mission {
     line-height: 36px;
     color: #000000;
     margin-bottom: 10px;
+}
+/*****Documentation Section*****/
+.documentation {
+    padding: 40px 0;
+}
+.documentation-image {
+    width: 35%;
+}
+.documentation-content {
+    width: 65%;
+}
+.documentation-content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+/*****Footer*****/
+footer.footer {
+    padding: 40px 0;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer h2 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer h2 span {
+    color: #ff5959;
+}
+.footer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    margin-bottom: 0;
 }
