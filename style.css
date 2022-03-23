@@ -7,6 +7,32 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #13103A;
+    margin-bottom: 30px;
+}
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
 p {
     margin-bottom: 20px;
     font-family: 'Poppins';
@@ -54,6 +80,7 @@ img {
 }
 .p-left {padding-left: 72px;}
 .p-right {padding-right: 72px;}
+.txt-center {text-align: center;}
 /*****Hero Section*****/
 section.hero-area {
     padding: 40px 0;
@@ -90,16 +117,6 @@ section.hero-area {
 section.my-mission {
     padding: 40px 0;
 }
-.my-mission h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 70px;
-    text-align: center;
-    color: #13103A;
-    margin-bottom: 30px;
-}
 .mission-item {
     border-radius: 26px;
     margin-right: 24px;
@@ -117,15 +134,6 @@ section.my-mission {
 .mission-item img {
     max-width: 140px;
 }
-.mission-item h3 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #000000;
-    margin-bottom: 10px;
-}
 /*****Documentation Section*****/
 .documentation {
     padding: 40px 0;
@@ -136,13 +144,53 @@ section.my-mission {
 .documentation-content {
     width: 65%;
 }
-.documentation-content h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    color: #333333;
+/*****Contact Section*****/
+section.contact {
+    padding: 40px 0;
+    background-color: #fbfbfb;
+}
+.contact-form {
+    width: 50%;
+    padding-right: 5%;
+}
+.contact-form input {
+    width: 49%;
+    float: left;
+    padding: 12px;
+    margin-right: 1%;
+    margin-bottom: 15px;
+    border: 1px solid #dee3e9;
+    border-radius: 10px;
+}
+.contact-form input:nth-child(2n) {
+    margin-right: 0;
+    margin-left: 1%;
+}
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dee3e9;
+    border-radius: 10px;
+}
+.contact-form input[type="button"] {
+    margin-left: 0;
+    background-color: #ff5959;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #ff5959;
+    cursor: pointer;
+}
+.contact-form input[type="button"]:hover {
+    background-color: transparent;
+    color: #ff5959;
+}
+.contact-info {
+    width: 50%;
+}
+.contact-info h2 span {
+    color: #ff5959;
 }
 /*****Footer*****/
 footer.footer {
